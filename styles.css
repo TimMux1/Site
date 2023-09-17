@@ -1,0 +1,87 @@
+.container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+.spaceflight > h2::after {
+  content: '\1F680';
+}
+h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+a:hover {
+    text-decoration: underline;
+}
+@keyframes rainbow-text {
+    0% { color: red; }
+    25% { color: orange; }
+    50% { color: yellow; }
+    75% { color: green; }
+    100% { color: blue; }
+}
+
+h2 {
+    animation: rainbow-text 5s infinite;
+}
+.background {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+.logo {
+    width: 130px;
+    height: auto; /* Автоматическое изменение высоты для поддержки пропорций */
+    position: absolute; /* Устанавливаем абсолютное позиционирование */
+    top: 30px; /* Отступ сверху */
+    left: 30px; /* Отступ слева */
+    border: 2px solid white; /* Пример границы для логотипа */
+    border-radius: 50%; /* Пример скругления краев */
+    background-color: rgba(0, 0, 0, 0.7);}
+h2, p {
+    margin-left: 70px; /* Устанавливаем отступ слева в 20px */
+}
+h1 {
+    margin-left: 135px; /* Устанавливаем отступ слева в 20px */
+}
+.image-container {
+    display: flex; /* Используем flexbox для размещения изображений в одной линии */
+    justify-content: center;
+    align-items: center; /* Вертикальное выравнивание по центру */
+    margin-top: 20px; /* Устанавливаем верхний отступ */
+}
+.small-image {
+    width: 300px; /* Устанавливаем ширину изображения */
+    height: auto; /* Автоматический расчет высоты для поддержания пропорций */
+    margin-top: 10px; /* Устанавливаем верхний отступ для изображения */
+}
+
+.large-image {
+    width: 600px; /* Устанавливаем ширину изображения */
+    height: auto; /* Автоматический расчет высоты для поддержания пропорций */
+    margin-top: 10px; /* Устанавливаем верхний отступ для изображения */
+}
